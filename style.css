@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after  {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    height: auto;
+    padding: 2% 10%;
+}
+
+
+.box {
+    position: relative;
+    box-sizing: border-box;
+    min-height: 1rem;
+    margin:2px;
+    background: #007FFF;
+    border: 1px solid #FFF;
+    border-radius: 2px;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    padding:  20px 0;
+}
